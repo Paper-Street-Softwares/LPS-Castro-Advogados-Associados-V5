@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://divorcio-castro.escritorioespecializado.adv.br/sitemap.xml
+Sitemap: https://divorcio-urgente-castro.escritorioespecializado.adv.br/sitemap.xml

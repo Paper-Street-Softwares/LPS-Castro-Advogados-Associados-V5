@@ -43,7 +43,7 @@ export const infos = {
   name: "Castro Advogados Associados",
   email: "contato", // Email desejado pelo cliente
   emailSecundario: "A_Definir", // Email desejado pelo cliente
-  domain: "divorcio-castro.escritorioespecializado.adv.br", // Sem "www"
+  domain: "divorcio-urgente-castro.escritorioespecializado.adv.br", // Sem "www"
   phone: {
     ddd: "66",
     firstPart: "99248", // Apenas os 5 primeiros números (incluindo o 9)
@@ -122,43 +122,16 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "DIVÓRCIO SEM COMPLICAÇÃO",
-      FirstPart: <span></span>,
+      miniTag: "DIVÓRCIO EXIGE DECISÕES RÁPIDAS",
+      FirstPart: <span>Não adie seu </span>,
       Destaque: (
-        <span className="relative italic font-light destaque">
-          DIVÓRCIO ONLINE{" "}
-          {/* <span>
-            <svg
-              className="absolute left-0 hidden w-full h-3 text-black hero-underline -bottom-2 desktop1:flex"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-              />
-            </svg>
-            <svg
-              className="absolute left-0 w-full h-3 text-black hero-underline -bottom-2 desktop1:hidden"
-              viewBox="0 0 100 10"
-              preserveAspectRatio="none"
-            >
-              <path
-                d="M0 5 Q 50 10 100 5"
-                stroke="currentColor"
-                strokeWidth="2"
-                fill="none"
-            </svg>
-          </span> */}
-        </span>
+        <span className="relative italic font-light destaque">divórcio</span>
       ),
-      SecondPart: <span>— RÁPIDO, SEGURO E SEM SAIR DE CASA</span>,
+      SecondPart: <span></span>,
       subtitle: (
         <p>
-          Orientação jurídica especializada para resolver seu divórcio de forma
-          clara, organizada e sem desgaste emocional.
+          Deixar decisões pra depois no divórcio pode trazer prejuízos. Receba
+          orientação jurídica para proteger seus direitos.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -167,7 +140,7 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Falar Com Advogada Agora",
+      ctaButtonText: "Quero falar com a Advogada agora",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
@@ -196,36 +169,67 @@ const content = {
       },
     },
     important: {
-      miniTag: "A_Definir",
-      title: "A_Definir",
+      miniTag: "ATENÇÃO",
+      title: <>O que você precisa sobre divórcio online</>,
       cards: {
         card1: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: (
+            <>O que pode acontecer se eu demorar para entrar com o divórcio?</>
+          ),
+          paragraph: (
+            <>
+              Seu cônjuge pode movimentar ou ocultar patrimônio antes da divisão
+              de bens. Sem orientação jurídica, isso pode dificultar a
+              recuperação do que seria seu por direito.
+            </>
+          ),
         },
         card2: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: <>Meu cônjuge pode fazer dívidas antes do divórcio?</>,
+          paragraph: (
+            <>
+              Dependendo do caso, dívidas feitas durante o casamento podem gerar
+              problemas financeiros no momento da separação. Quanto antes buscar
+              orientação jurídica, maiores são as chances de evitar prejuízos.
+            </>
+          ),
         },
         card3: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: (
+            <>E se meu cônjuge começar a tomar decisões sobre os filhos?</>
+          ),
+          paragraph: (
+            <>
+              Sem um acordo ou decisão judicial, conflitos sobre guarda, visitas
+              e pensão podem aumentar. Ter orientação jurídica desde o início
+              ajuda a proteger o bem-estar dos filhos e evitar decisões
+              precipitadas.
+            </>
+          ),
         },
         card4: {
-          title: "A_Definir",
-          paragraph: "A_Definir",
+          title: <>Esperar pode tornar o divórcio mais difícil?</>,
+          paragraph: (
+            <>
+              Sim. Quanto mais o tempo passa, maiores podem ser os conflitos, o
+              desgaste emocional e a dificuldade de chegar a um acordo justo
+              entre as partes.
+            </>
+          ),
         },
       },
-      fraseObs: "A_Definir",
-      ctaButtonText: "A_Definir",
+      fraseObs: (
+        <>Entre em contato conosco e daremos todo o suporte necessário</>
+      ),
+      ctaButtonText: <>Falar conosco agora pelo WhatsApp</>,
     },
     features: {
-      miniTag: "Seu divórcio não precisa ser complicado",
-      FirstPart: <span>Sabemos que o momento do divórcio </span>,
-      Destaque: <span className="italic font-light"> é delicado</span>,
-      SecondPart: <span> e, muitas vezes, doloroso.</span>,
+      miniTag: "Tempo é decisivo no divórcio",
+      FirstPart: <span>Adiar o divórcio pode </span>,
+      Destaque: <span className="italic font-light"> trazer</span>,
+      SecondPart: <span> prejuízos</span>,
       subtitle:
-        "Por isso, oferecemos um atendimento humanizado, rápido e totalmente online, para que você resolva tudo com tranquilidade e sem burocracia. Você não precisa enfrentar filas, deslocamentos ou desgaste emocional. Nós cuidamos de tudo para você.",
+        "Quando o divórcio demora para ser resolvido, conflitos podem aumentar e decisões importantes podem acontecer sem proteção jurídica. Buscar orientação no momento certo ajuda a proteger seus direitos e evitar problemas maiores.",
       imgFeatures: imgFeatures,
       alt: "imagem representativa da Seção Serviços",
       titleMessageFeature: "100%",
@@ -548,7 +552,7 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Você mais perto de receber o que é seu, sem sair de casa
+            Você mais perto de resolver seu problema, sem sair de casa
           </div>
         </div>
       ),
