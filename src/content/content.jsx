@@ -531,7 +531,7 @@ const content = {
             <span className="p-1 border-2 rounded-full">
               <Check className="" width={17} height={17} />
             </span>{" "}
-            Atendimento direto com o Advogado, sem intermediários
+            Atendimento direto com a Advogada, sem intermediários
           </div>
           <div className="flex items-start gap-2 mx-auto">
             {" "}
