@@ -122,16 +122,17 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "DIVÓRCIO EXIGE DECISÕES RÁPIDAS",
-      FirstPart: <span>Não adie seu </span>,
+      miniTag: "ADVOGADO PARA ENTRAR COM DIVÓRCIO URGENTE",
+      FirstPart: <span>Chega de sofrer: Resolva seu Divórcio </span>,
       Destaque: (
-        <span className="relative italic font-light destaque">divórcio</span>
+        <span className="relative italic font-light destaque">URGENTE</span>
       ),
       SecondPart: <span></span>,
       subtitle: (
         <p>
-          Deixar decisões pra depois no divórcio pode trazer prejuízos. Receba
-          orientação jurídica para proteger seus direitos.
+          Cada dia que você esperar a situação só vai piorar. Resolva seu
+          divórcio rápido com orientação de Advogado Especialista no assunto,
+          tudo pela internet e sem burocracia desnecessária.
         </p>
       ),
       heroDefaultImage: heroDefaultImg, // img da pessoa mobile
@@ -140,13 +141,13 @@ const content = {
       alt: "Imagem ilustrativa da Seção Início",
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
-      ctaButtonText: "Quero falar com a Advogada agora",
+      ctaButtonText: "Falar com Advogado agora no WhatsApp",
       ctaButtonTextSecondary: "A_Definir",
       obsHero: {
         icon: <LucideIdCard />,
         iconTwo: <LucideIdCard />,
-        text: "Atendimento 100% online e sigiloso",
-        textTwo: "Com orientação de advocacia especializada",
+        text: "Foco em fazer o melhor acordo para você não sair perdendo.",
+        textTwo: "Atendimento imediato, sem enrolação.",
       },
       secondaryCta: "Contato",
       images: {
